@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".BackstrokeMain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:shadowColor="@color/c_sky"
+                android:shadowRadius="1"
+                android:text="2. BACKSTROKE"
+                android:textColor="@color/b_sky"
+                android:textSize="12pt"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:srcCompat="@drawable/backstroke" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="left"
+                android:text="The backstroke is the only stroke not performed facing downward. This stroke is another long-axis stroke that uses many of the same principles and body positioning as the front crawl or freestyle but performed on one’s back.\n\nWith the swimmer’s face looking up at the sky or ceiling, it’s essential to maintain head and hip alignment or else the hips will drop and the swimmer will lose proper position, speed and efficiency. The arm pull is the reverse of the freestyle, focusing on the thumb exiting the water first and the pinky entering the water first, slicing the water."
+                android:textColor="@color/b_sky"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Back"
+                android:textColor="@color/b_sky"
+                android:textSize="7pt"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".FreestyleMain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:shadowColor="@color/c_sky"
+                android:shadowRadius="1"
+                android:text="1. FREESTYLE"
+                android:textColor="@color/b_sky"
+                android:textSize="12pt"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:srcCompat="@drawable/freestyle" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="left"
+                android:text="Also known as the front crawl, freestyle is the fastest and most efficient competitive swimming stroke. Often referred to as a long-axis stroke, the technique for swimming freestyle is maintaining a fully horizontal, face-down position. The head remains in a neutral position except for each time the swimmer takes a breath.\n\nThe arm stroke and body position work in tandem with the body rolling gently from one side to the other along with the arm that is pulling out of the water for a full stroke and taking a breath. Finally, swimmers get a great deal of power from the flutter kick, which involves a continuous up and down kicking motion with pointed toes that elongate the body in the water."
+                android:textColor="@color/b_sky"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Back"
+                android:textColor="@color/b_sky"
+                android:textSize="7pt"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

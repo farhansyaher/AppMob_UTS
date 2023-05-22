@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".IntroMain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:shadowColor="@color/c_sky"
+                android:shadowRadius="1"
+                android:text="INTRODUCE"
+                android:textColor="@color/b_sky"
+                android:textSize="12pt"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:srcCompat="@drawable/introduce" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="left"
+                android:text="Swimming is the self-propulsion of a person through water, or other liquid, usually for recreation, sport, exercise, or survival. Locomotion is achieved through coordinated movement of the limbs and the body to achieve hydrodynamic thrust that results in directional motion. Humans can hold their breath underwater and undertake rudimentary locomotive swimming within weeks of birth, as a survival response.\n\nSwimming can be undertaken using a wide range of styles, known as 'strokes,' and these strokes are used for different purposes, or to distinguish between classes in competitive swimming. It is not necessary to use a defined stroke for propulsion through the water, and untrained swimmers may use a 'doggy paddle' of arm and leg movements, similar to the way four-legged animals swim.\n\nThere are four main strokes used in competition and recreation swimming: the front crawl, also known as freestyle, breaststroke, backstroke and butterfly. Even if you haven't done any competitive swimming, you might have heard of the 4 main types of swimming strokes: freestyle, backstroke, breaststroke, and butterfly. Each stroke has its own unique approach, using the arms, legs, and torso differently. Read on to learn more about these types of swimming strokes and the differences and similarities of each one. "
+                android:textColor="@color/b_sky"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Back"
+                android:textColor="@color/b_sky"
+                android:textSize="7pt"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
